@@ -1,6 +1,8 @@
 import * as dotenv from "dotenv";
 import { createError } from "../error.js";
-import { Configuration, OpenAIApi } from "openai";
+import Configuration from "openai";
+import OpenAIApi from "openai";
+// const env = require("dotenv")
 
 dotenv.config();
 
